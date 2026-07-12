@@ -19,7 +19,7 @@
     combos {
         compatible = "zmk,combos";
         
-        // Left Hand Combos
+        // --------------  Left Hand Mod Combos
         combo_gui_a {
             // Left Inner + a
             timeout-ms = <50>;
@@ -45,7 +45,7 @@
             bindings = <&kp LSHFT>;
         };
 
-        // Right Hand Combos
+        // -------------- Right Hand Combos
         combo_sft_j {
             // Right Inner + J
             timeout-ms = <50>;
@@ -70,7 +70,8 @@
             key-positions = <39 22>;
             bindings = <&kp LGUI>;
         };
-        // Left Hand hyprmods
+        
+        // -------------- Left Hand hyprmods
         secondmod_left {
             // GUI + SHIFT
             timeout-ms = <50>;
@@ -89,7 +90,8 @@
             key-positions = <38 13 14>;
             bindings = <&kp LG(LALT)>;
         };
-        // Right Hand hyprmods
+
+        // -------------- Right Hand hyprmods
         secondmod_right {
             // GUI + SHIFT
             timeout-ms = <50>;
