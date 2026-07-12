@@ -95,19 +95,19 @@
         secondmod_right {
             // GUI + SHIFT
             timeout-ms = <50>;
-            key-positions = <39 13 19>;
+            key-positions = <39 22 19>;
             bindings = <&kp LG(LSHFT)>;
         };
         thirdmod_right {
             // GUI + CTRL
             timeout-ms = <50>;
-            key-positions = <39 13 20>;
+            key-positions = <39 22 20>;
             bindings = <&kp LG(LCTRL)>;
         };
         fourthmod_right {
             // GUI + ALT
             timeout-ms = <50>;
-            key-positions = <39 13 21>;
+            key-positions = <39 22 21>;
             bindings = <&kp LG(LALT)>;
         };
     };
