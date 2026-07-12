@@ -7,33 +7,33 @@
         compatible = "zmk,combos";
 
         combo_sft_j {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <38 19>;
             bindings = <&kp LSHFT>;
         };
         combo_ctl_k {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <38 20>;
             bindings = <&kp LCTRL>;
         };
         combo_alt_l {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <38 21>;
             bindings = <&kp LALT>;
         };
 
         combo_sft_f {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <39 16>;
             bindings = <&kp RSHFT>;
         };
         combo_ctl_d {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <39 15>;
             bindings = <&kp RCTRL>;
         };
         combo_alt_s {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <39 14>;
             bindings = <&kp RALT>;
         };
