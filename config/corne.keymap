@@ -24,7 +24,7 @@
             // Left Inner + a
             timeout-ms = <50>;
             key-positions = <38 13>;
-            bindings = <&kp LALT>;
+            bindings = <&kp LGUI>;
         };
         combo_alt_s {
             // Left Inner + s
