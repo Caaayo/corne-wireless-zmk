@@ -60,7 +60,7 @@
             &none &none &none &none &none &none    &none &none &none &none &none &none
             &none &none &none &none &none &none    &none &none &none &none &none &none
             &none &none &none &none &none &none    &none &none &none &none &none &none
-                              &none &none &none    &BSPC &none &none
+                              &none &none &none    &kp BSPC &none &none
             >;
         };
 
