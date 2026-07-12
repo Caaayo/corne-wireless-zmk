@@ -121,11 +121,21 @@
                &kp LA(SPACE) &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &none
                &kp ESC &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &none
                &none &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &none
-                            &kp TAB &mo 2 &kp BSPC     &kp SPACE &mo 1 &kp RET 
+                            &kp TAB &mo 3 &mo 1     &kp SPACE &mo 2 &kp RET 
             >;
         };
 
-        workspaces {
+        numpad_mod_layer {
+            display-name = "Number/Mod";
+            bindings = <
+                &none &tog(1)  &none &kp TAB &kp ESC &kp DEL                &kp GRAVE &kp N7 &kp N8 &kp N9 &none  &none 
+                &none &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &kp RET         &none &kp N4 &kp N5 &kp N6 &kp APOS &none 
+                &none &kp CAPS &none &none &none &none                      &none &kp N1 &kp N2 &kp N3 &kp NUBS  &none 
+                                                    &none &none &none  &kp BSPC &none &kp N0 
+            >;
+        };
+
+        workspaces_layer {
             display-name = "Workspaces";
             bindings = <
                 &none &none      &kp LG(N9) &kp LG(N8) &kp LG(N7) &none          &none &kp LG(N7) &kp LG(N8) &kp LG(N9) &none        &none
@@ -135,15 +145,6 @@
             >;
         };
 
-        numbers {
-            display-name = "Numbers";
-            bindings = <
-                &none &none  &kp N9 &kp N8 &kp N7 &none             &none &kp N7 &kp N8 &kp N9 &none  &none 
-                &none &kp N0 &kp N6 &kp N5 &kp N4 &none             &none &kp N4 &kp N5 &kp N6 &kp N0 &none 
-                &none &none  &kp N3 &kp N2 &kp N1 &none             &none &kp N1 &kp N2 &kp N3 &none  &none 
-                                        &none &none &none  &none &none &none 
-            >;
-        };
 
         extra_3 {
             status = "reserved";
