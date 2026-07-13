@@ -147,13 +147,13 @@
             >;
         };
 
-        workspaces_layer {
-            display-name = "Workspaces";
+        nav_layer {
+            display-name = "Navigation";
             bindings = <
-                &none &none      &kp LG(N9) &kp LG(N8) &kp LG(N7) &none          &none &kp LG(N7) &kp LG(N8) &kp LG(N9) &none        &none
-                &none &kp LG(N0) &kp LG(N6) &kp LG(N5) &kp LG(N4) &none          &none &kp LG(N4) &kp LG(N5) &kp LG(N6) &kp LG(N0)   &none
-                &none &none      &kp LG(N3) &kp LG(N2) &kp LG(N1) &none          &none &kp LG(N1) &kp LG(N2) &kp LG(N3) &none        &none
-                                                           &none &none &none  &none &none &none 
+                &none &tog(1)  &none &kp TAB &kp ESC &kp DEL                &none &none &kp UP &none &none &none 
+                &none &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &kp RET         &none &kp LEFT &kp DOWN &kp RIGHT &none &none 
+                &none &kp CAPS &none &none &none &none                      &none &none &none &none &none &none
+                                                    &none &none &none  &kp BSPC &none &none 
             >;
         };
 
