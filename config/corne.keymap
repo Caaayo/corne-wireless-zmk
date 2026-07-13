@@ -44,6 +44,12 @@
             key-positions = <38 16>;
             bindings = <&kp LSHFT>;
         };
+        combo_ctrlshift_left {
+            // Right Inner + ;
+            timeout-ms = <50>;
+            key-positions = <38 15 16>;
+            bindings = <&kp LC(LSHFT)>;
+        };
 
         // -------------- Right Hand Combos
         combo_sft_j {
@@ -69,6 +75,12 @@
             timeout-ms = <50>;
             key-positions = <39 22>;
             bindings = <&kp LGUI>;
+        };
+        combo_ctrlshift_right {
+            // Right Inner + ;
+            timeout-ms = <50>;
+            key-positions = <39 19 20>;
+            bindings = <&kp LC(LSHFT)>;
         };
         
         // -------------- Left Hand hyprmods
